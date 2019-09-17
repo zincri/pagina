@@ -556,7 +556,6 @@
     opacity: 1; }
 
 
-    /*PANEL DE CONTROL*/
 
     /* product image 
 
@@ -777,3 +776,26 @@
       
 
   
+
+    /*PANEL DE CONTROL*/
+
+    .dashboard{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin: auto;
+    }
+
+    .dashboard a{
+      color: crimson;
+      width: calc(100% / 5);
+      padding: 20px;
+      background-color: #f6f6f6;
+      font-size: 27pt;
+      text-align: center;
+
+    }
