@@ -1,17 +1,19 @@
 <?php
-/*
+
 $array_usuarios = [
     "jhoana" => "admin",
     "zincri" => "client",
 ];
-*/
+
 $user = $_POST['user'];
-if($user=="jhoana"){
+$pass = $_POST['pass'];
+
+if($user=="jhoana" && $pass=="123456" && $array_usuarios[$user]=="admin"){
     echo header("location:dashboard.html");
-}else if($user=="zincri"){
+}else if($user=="zincri" && $pass=="123" && $array_usuarios[$user]=="client"){
     echo header("location:principal.html");
 }else{
-    echo "error en la autenticacion";
-    header('Location: login_h.html');
+
+    echo header("location:login_h.html");
 }
 ?>
