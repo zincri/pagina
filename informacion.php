@@ -30,38 +30,25 @@
       <div class="contenedor">
         <section class="grupo no-banner">
           <h2 class="grupo__titulo">Informaciòn</h2>
-          <div id="conta">	
+        <div class="conta"> 	
           <!-- Start	Product details -->
         <div class="estilos">
               <!-- 	Product Name -->
+          <div class="product-images">
+            <img src="css/infop.jpg">
+          </div>
+          <!--  End product image  -->
             <h1>Merida</h1>
               <p class="information">"Lugar de elegancia y contraste con sus casas coloniales, sus ruinas mayas y su arquitectura"</p>
           <!-- Control -->
-         <div class="control">
+        <!-- <div class="control">
             <button class="btn">
              <span class="price">$ 315</span>
              <span class="buy">Comprar Ahora</span>
            </button>
-          </div>
-          <!-- 	Start product image & Information -->
-          <div class="product-images">
-            <img src="css/infop.jpg">
-          <!-- 	product Information-->
-         <a href="informacion.php" >
-            <div class="info">
-                <h2>Descripciòn</h2>
-                <ul>
-                  <li><strong>Personas: </strong>1</li>
-                  <li><strong>Dìas: </strong>3</li>
-                  <li><strong>Noches: </strong>2</li>
-                  <li><strong>Incluye: </strong>Todo</li>
-                </ul>
-                </div>
-         </a>
-          </div>
-          <!--  End product image  -->
+          </div>-->
        </div>
-      </div>
+      </<div>
         </section>
       </div>
     </main>
