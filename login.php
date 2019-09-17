@@ -13,6 +13,7 @@ if($user=="jhoana" && $pass=="123456" && $array_usuarios[$user]=="admin"){
 }else if($user=="zincri" && $pass=="123" && $array_usuarios[$user]=="client"){
     echo header("location:principal.html");
 }else{
+
     echo header("location:login_h.html");
 }
 ?>
