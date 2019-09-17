@@ -12,5 +12,6 @@ if($user=="jhoana"){
     echo header("location:principal.html");
 }else{
     echo "error en la autenticacion";
+    header('Location: login_h.html');
 }
 ?>
